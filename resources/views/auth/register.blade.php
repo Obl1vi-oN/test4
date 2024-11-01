@@ -67,7 +67,7 @@
         </div>
         <div class="input">
             <label for="password">Пароль</label>
-            <input type="text" placeholder="Введите пароль..." name="password" value="{{ old('password') }}" required>
+            <input type="text" placeholder="Введите пароль..." name="password" required>
         </div>
         <button type="submit">Регистрация</button>
         <a href="{{ route('login') }}">Или вход</a>

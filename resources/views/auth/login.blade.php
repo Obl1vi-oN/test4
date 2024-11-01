@@ -63,7 +63,7 @@
         </div>
         <div class="input">
             <label for="password">Пароль</label>
-            <input type="text" placeholder="Введите пароль..." value="{{ old('password') }}" >
+            <input type="text" placeholder="Введите пароль..." >
         </div>
         <button type="submit">Вход</button>
         <a href="{{ route('register') }}">Или регистрация</a>
